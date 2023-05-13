@@ -1,0 +1,82 @@
+/* Apply general styles to the form */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  /* Style the form heading */
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  /* Style the form labels */
+  label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  
+  /* Style the form inputs */
+  input,
+  textarea,
+  select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  /* Style the terms and conditions checkbox */
+  input[type="checkbox"] {
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  
+  /* Style the error messages */
+  input:invalid,
+  textarea:invalid,
+  select:invalid {
+    border-color: red;
+  }
+  
+  input:invalid:focus,
+  textarea:invalid:focus,
+  select:invalid:focus {
+    border-color: red;
+    box-shadow: 0 0 5px red;
+  }
+  
+  input:valid,
+  textarea:valid,
+  select:valid {
+    border-color: #ccc;
+  }
+  
+  input:valid:focus,
+  textarea:valid:focus,
+  select:valid:focus {
+    border-color: #ccc;
+    box-shadow: 0 0 5px #ccc;
+  }
+  
